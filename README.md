@@ -2,18 +2,83 @@
 
 ## 📌 Project Description
 Wessam (وسام) is an intelligent sports management and analytics platform that connects coaches, trainees, gyms, and organizers.  
-The platform leverages **AI-powered analytics** to improve training quality and support data-driven decision making.
+The platform uses **AI-powered analytics** to enhance training quality and enable data-driven decision making.
 
 ---
 
-## 🧩 Contributions (Leena)
-- 🤖 Designed and implemented **AI-powered features**
-- 📊 Built **analytics & dashboards** for insights and reporting
-- 🧩 Designed **ER Diagram (ERD)**
-- 🔄 Created **Use Case Diagram**
-- 🎨 Designed **Figma UI interfaces**
-- 📦 Created and maintained **DTOs**
-- 📝 Wrote full **system documentation**
+## 👩‍💻 Contributor
+- **Leena**
+
+---
+
+## 🧩 Full Contributions (Leena)
+
+### 🤖 AI & Analytics
+- AI personalized coaching recommendations for trainees
+- AI-powered course recommendation system
+- AI analysis of course feedback
+- AI analysis of coach feedback
+- AI sport popularity analysis
+- AI-powered tournament and course insights
+- Analytics dashboards and statistical endpoints
+
+---
+
+### 🧑‍🎓 Trainee Management
+- View trainee registered courses
+- Analytics related to trainee participation
+
+---
+
+### 📚 Course Management (CRUD + Analytics)
+- Create, update, delete, and retrieve courses
+- Retrieve courses by date range
+- Retrieve upcoming courses
+- Retrieve top courses based on performance
+- Calculate total trainees per course
+- AI feedback analysis for courses
+- AI next-level course recommendations
+
+---
+
+### 🏆 Tournament Management (CRUD + Analytics)
+- Retrieve upcoming tournaments
+- Retrieve tournaments by date range
+- Calculate total trainees per tournament
+- AI-generated insights for tournaments
+
+---
+
+### 🏅 Sport Management (CRUD + Analytics)
+- Create, update, delete, and retrieve sports
+- AI-based sport popularity analysis
+
+---
+
+### 🏢 Organizer Management (CRUD)
+- Create, update, delete, and retrieve organizers
+
+---
+
+### 📊 Dashboards & Statistics
+- Coach performance analytics
+- Course popularity analytics
+- Tournament participation analytics
+- Sport trend analysis dashboards
+
+---
+
+### 🧩 System Design & Architecture
+- Designed **ER Diagram (ERD)**
+- Designed **Use Case Diagram**
+- Created and updated **DTOs**
+- Full **API documentation**
+- System documentation and technical writing
+
+---
+
+### 🎨 UI/UX Design
+- Designed Figma interfaces for system workflows
 
 ---
 
@@ -32,20 +97,20 @@ The platform leverages **AI-powered analytics** to improve training quality and 
 
 ---
 
-## 🤖 AI & Analytics Endpoints
+## 🚀 Key Endpoints Implemented by Leena
 
 ### 🧑‍🎓 Trainee & AI Coach
 | Method | Endpoint | Description |
 |--------|---------|-------------|
 | GET | `/coach/{traineeId}` | AI personalized coaching advice |
-| GET | `/get/registerd/{traineeId}` | Trainee registered courses |
+| GET | `/get/registerd/{traineeId}` | Get trainee registered courses |
 
 ---
 
-### 📚 Courses & AI Analytics
+### 📚 Courses
 | Method | Endpoint | Description |
 |--------|---------|-------------|
-| GET | `/get/top/{courseId}` | Top-rated courses |
+| GET | `/get/top/{courseId}` | Get top courses |
 | GET | `/get/recommended/{traineeId}/{sportId}` | AI recommended courses |
 | GET | `/get/dateRange/{sportId}/{startDate}/{endDate}` | Courses by date range |
 | GET | `/get/upcoming` | Upcoming courses |
@@ -54,7 +119,7 @@ The platform leverages **AI-powered analytics** to improve training quality and 
 
 ---
 
-### 🏆 Tournament Analytics
+### 🏆 Tournaments
 | Method | Endpoint | Description |
 |--------|---------|-------------|
 | GET | `/get/upcoming` | Upcoming tournaments |
@@ -63,11 +128,24 @@ The platform leverages **AI-powered analytics** to improve training quality and 
 
 ---
 
-### 🏅 Sport Analytics
+### 🏅 Sports
 | Method | Endpoint | Description |
 |--------|---------|-------------|
 | GET | `/api/v1/sport/get` | Get all sports |
+| POST | `/api/v1/sport/add` | Add new sport |
+| PUT | `/api/v1/sport/update/{id}` | Update sport |
+| DELETE | `/api/v1/sport/delete/{id}` |
 | GET | `/api/v1/sport/analyze/sport/{sportId}` | Analyze sport popularity |
+
+---
+
+### 🏢 Organizers
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| GET | `/api/v1/organizer/get` | Get all organizers |
+| POST | `/api/v1/organizer/add` | Add organizer |
+| PUT | `/api/v1/organizer/update/{id}` | Update organizer |
+| DELETE | `/api/v1/organizer/delete/{id}` |
 
 ---
 
@@ -83,4 +161,4 @@ The platform leverages **AI-powered analytics** to improve training quality and 
 ---
 
 ## 📌 Notes
-This README highlights **individual contributions by Leena** as part of the Wessam platform project.
+This README documents the **complete individual contribution of Leena**, including **CRUD operations, AI features, analytics, system design, and documentation**, as part of the Wessam platform.
