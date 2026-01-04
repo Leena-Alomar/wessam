@@ -13,8 +13,7 @@ Leena
 ## 🧩 Individual Contributions (Leena)  
 
 ### 🤖 AI & Analytics
-- AI personalized coaching recommendations for trainees  
-- AI-powered course recommendation system  
+- AI personalized coaching recommendations for trainees   
 - AI analysis of course feedback  
 - AI analysis of coach feedback  
 - AI sport popularity analysis  
@@ -25,19 +24,19 @@ Leena
 - View trainee registered courses  
 - Analytics related to trainee participation  
 
-### 📚 Course Management (CRUD + Analytics)
+### 📚 Course Management (Analytics)
 - Retrieve courses by date range  
 - Retrieve upcoming courses  
 - Retrieve top courses based on performance  
-- Calculate total trainees per course  
+- Calculate total trainees per course 
 - AI feedback analysis for courses  
-- AI next-level course recommendations  
+  
 
 ### 🏆 Tournament Management (CRUD + Analytics)
 - Retrieve upcoming tournaments  
 - Retrieve tournaments by date range  
 - Calculate total trainees per tournament  
-- AI-generated insights for tournaments  
+  
 
 ### 🏅 Sport Management (CRUD + Analytics)
 - Create, update, delete, and retrieve sports  
@@ -49,8 +48,8 @@ Leena
 ### 🏋️ Gym Management (CRUD)
 - Create, update, delete, and retrieve gyms  
 
-### 📊 Coach Management
-- Create, update, delete, and retrieve coaches  
+### 📊 Coach Management(CRUD)
+-  update, delete, and retrieve coaches  
 - Coach performance analytics  
 - Course reminder integration with Google Calendar  
 
@@ -58,7 +57,8 @@ Leena
 - Designed ER Diagram (ERD)  
 - Designed Use Case Diagram  
 - Created and updated DTOs  
-- Full API documentation  
+- API Integration
+- AI Integration  
 - System documentation and technical writing  
 
 ### 🎨 UI/UX Design
@@ -137,18 +137,9 @@ Leena
 | GET | /total-courses/{coachId} | Total courses per coach |
 | POST | /reminder/{courseId} | Add course reminder to Google Calendar |
 | GET | /Get | Get All coach |
-| POST | /add | add new coach |
 | PUT | /update | Update coach details |
-| DELETE | /delete | Delete coach |
+| DELETE | /delete | Delete 
 
-
-### 📚 Registered Courses (CRUD)
-| Method | Endpoint | Description |
-|--------|---------|------------|
-| GET | /get | Get all courses registered |
-| POST | /add | add Register course |
-| PUT | /update/{registrationId} | Update registration details |
-| DELETE | /delete/{registrationId} | Delete a registration  |
 
 
 ---
