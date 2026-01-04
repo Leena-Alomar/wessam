@@ -16,8 +16,7 @@ Leena
 - AI personalized coaching recommendations for trainees   
 - AI analysis of course feedback  
 - AI analysis of coach feedback  
-- AI sport popularity analysis  
-- AI-powered tournament and course insights  
+- AI sport popularity analysis    
 - Analytics dashboards and statistical endpoints  
 
 ### 🧑‍🎓 Trainee Management
@@ -43,10 +42,10 @@ Leena
 - AI-based sport popularity analysis  
 
 ### 🏢 Organizer Management (CRUD)
-- Create, update, delete, and retrieve organizers  
+-  update, delete, and retrieve organizers  
 
 ### 🏋️ Gym Management (CRUD)
-- Create, update, delete, and retrieve gyms  
+- update, delete, and retrieve gyms  
 
 ### 📊 Coach Management(CRUD)
 -  update, delete, and retrieve coaches  
@@ -89,7 +88,7 @@ Leena
 | Method | Endpoint | Description |
 |--------|---------|------------|
 | GET | /top | Get top courses |
-| GET | /get/recommended/{traineeId}/{sportId} | AI recommended courses |
+| GET | /get/recommended/{traineeId}/{sportId} | recommended courses |
 | GET | /get/dateRange/{sportId}/{startDate}/{endDate} | Courses by date range |
 | GET | /get/upcoming | Upcoming courses |
 | GET | /review-summary/{courseId} | AI course feedback analysis |
@@ -115,7 +114,6 @@ Leena
 | Method | Endpoint | Description |
 |--------|---------|------------|
 | GET | /api/v1/organizer/get | Get all organizers |
-| POST | /api/v1/organizer/add | Add organizer |
 | PUT | /api/v1/organizer/update/{id} | Update organizer |
 | DELETE | /api/v1/organizer/delete/{id} | Delete organizer |
 
@@ -123,7 +121,6 @@ Leena
 | Method | Endpoint | Description |
 |--------|---------|------------|
 | GET | /api/v1/gym/get | Get all gyms |
-| POST | /api/v1/gym/add | Add gym |
 | PUT | /api/v1/gym/update/{id} | Update gym |
 | DELETE | /api/v1/gym/delete/{id} | Delete gym |
 
