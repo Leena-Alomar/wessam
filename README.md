@@ -7,7 +7,6 @@ The platform uses AI-powered analytics to enhance training quality and enable da
 👩‍💻 **Contributor**  
 Leena  
 
-> ⚠️ Note: This is a group project, but all coding, API integration, AI features, ERD, Use Case diagrams, and most Figma UI/UX design were implemented by Leena.
 
 ---
 
