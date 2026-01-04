@@ -4,12 +4,10 @@
 Wessam (وسام) is an intelligent sports management and analytics platform connecting coaches, trainees, gyms, and organizers.  
 The platform uses AI-powered analytics to enhance training quality and enable data-driven decision making.  
 
-👩‍💻 **Contributor**  
-Leena  
 
 ---
 
-## 🧩 Full Contributions (Leena)  
+## 🧩 Individual Contributions (Leena)  
 
 ### 🤖 AI & Analytics
 - AI personalized coaching recommendations for trainees  
@@ -51,12 +49,14 @@ Leena
 ### 📊 Coach Management
 - Create, update, delete, and retrieve coaches  
 - Coach performance analytics  
+- Course reminder integration with Google Calendar  
 
 ### 🧩 System Design & Architecture
-- Designed ER Diagram (ERD)  
+- Worked on Designing The ER Diagram (ERD)  
 - Designed Use Case Diagram  
 - Created and updated DTOs  
-- Full API documentation  
+- API Integration
+- AI Integration  
 - System documentation and technical writing  
 
 ### 🎨 UI/UX Design
@@ -145,3 +145,4 @@ Leena
 - MySQL  
 - AI Prompt-based Analysis  
 - Figma (UI/UX)  
+
