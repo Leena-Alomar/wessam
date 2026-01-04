@@ -133,8 +133,18 @@ The platform uses AI-powered analytics to enhance training quality and enable da
 | GET | /avg-rating/{coachId} | Get average coach rating |
 | GET | /total-trainee/{coachId} | Total trainees per coach |
 | GET | /total-courses/{coachId} | Total courses per coach |
+| GET | /get | Get All coachs |
 | POST | /reminder/{courseId} | Add course reminder to Google Calendar |
+| PUT | /update | Update coach details |
+| DELETE | /delete | Delete coach |
 
+
+### 📚 Registered Courses (CRUD)
+| Method | Endpoint | Description |
+|--------|---------|------------|
+| GET | /get | Get all courses registered  |
+| PUT | /update/{registrationId} | Update registration details |
+| DELETE | /delete/{registrationId} | Delete a registration (Trainee only) |
 ---
 
 ### 🧠 Technologies Used
